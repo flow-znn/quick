@@ -1,0 +1,22 @@
+QUICK RESERVATION — VERSÃO ATUALIZADA EM PORTUGUÊS
+
+Esta versão contém 4 telas:
+01-recursos.svg — catálogo de salas, laboratórios e equipamentos.
+02-nova-reserva.svg — formulário de solicitação de reserva.
+03-reservas.svg — listagem e gerenciamento de todas as reservas.
+04-detalhes-recurso.svg — informações e agenda de um recurso.
+
+Alterações solicitadas:
+- Sistema destinado somente a administradores.
+- Removida a tela/área de gerenciamento de usuários.
+- "Minhas reservas" foi alterada para "Reservas", pois o administrador acompanha todas as reservas.
+- Interface em português.
+- Identidade visual clara, com verde inspirado na logo enviada.
+
+Como abrir no Figma:
+1. Extraia o ZIP.
+2. Abra um arquivo de Design no Figma.
+3. Arraste os arquivos SVG para a página.
+4. Os textos e formas são vetoriais e podem ser editados. A logo é uma imagem PNG incorporada.
+
+Observação: os dados são fictícios e as telas são protótipos visuais estáticos. A regra de não permitir reservas conflitantes precisa ser garantida no backend/banco de dados, inclusive em requisições simultâneas.
