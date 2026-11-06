@@ -1,9 +1,7 @@
-FROM node:22-alpine AS build
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
+FROM php:8.3-apache
+
+RUN docker-php-ext-install pdo_mysql
+
+COPY . /var/www/html/
+
 EXPOSE 80
